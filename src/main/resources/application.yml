@@ -6,3 +6,10 @@ spring:
     active: h2
   application:
     name: poc
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
